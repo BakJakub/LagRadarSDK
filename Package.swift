@@ -8,7 +8,7 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "LagRadarSDK",
+            name: "LagRadarKit",
             targets: ["LagRadarKit"])
     ],
     targets: [
