@@ -4,8 +4,6 @@ LagRadar is an in-app UI performance profiling tool for the iOS platform. It lev
 
 The primary goal of LagRadar is to help developers identify and diagnose performance bottlenecks that can lead to UI stuttering and a degraded user experience.
 
-## Getting Started
-
 ## Installation
 
 You can add **LagRadar iOS SDK** to your project using Swift Package Manager (SPM):
@@ -14,6 +12,8 @@ You can add **LagRadar iOS SDK** to your project using Swift Package Manager (SP
 2. Enter the repository URL:https://github.com/BakJakub/LagRadarSDK.git
 3. Select the version rule (e.g. **Exact Version** or **Up to Next Major**).
 4. Add the **LagRadarKit** product to your app target.
+
+## Getting Started
 
 Integrating the SDK is straightforward. Simply initialize the monitoring at an appropriate point in your app's lifecycle, such as in your `AppDelegate` or `SceneDelegate`.
 
